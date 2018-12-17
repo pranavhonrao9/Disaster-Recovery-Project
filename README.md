@@ -1,6 +1,6 @@
 # Disaster-Recovery-Project
 
-In this data science Project, real messages  sent during disaster events is used to build machine learning model. This model  categorize events in proper manner so  messages can be sent to appropriate disaster relief agency and web application is created using flask.
+In this data science Project, real messages  sent during disaster events are used to build machine learning model. This model  categorize events in proper manner so  messages can be sent to appropriate disaster relief agency and web application is created using flask.
 
 Data : Figure Eight(https://www.figure-eight.com/)
 
@@ -14,21 +14,30 @@ In natural disasters , it is always challenging to provide right help at the rig
 In a Python script, process_data.py, data cleaning pipeline contains:
 
 a.Loads the messages and categories datasets
+
 b.Merges the two datasets
+
 c.Cleans the data
+
 d.Stores it in a SQLite database
 
 2. ML Pipeline
 In a Python script, train_classifier.py,a machine learning pipeline contains:
 
 a.Loads data from the SQLite database
+
 b.Splits the dataset into training and test sets
+
 c.Builds a text processing and machine learning pipeline
+
 d.Trains and tunes a model using GridSearchCV
+
 e.Outputs results on the test set
+
 f.Exports the final model as a pickle file
 
-
+3. Web App
+In run.py file ,web app task is written using flask and python.
 
 
 ### Instructions:
