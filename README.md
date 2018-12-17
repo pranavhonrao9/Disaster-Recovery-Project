@@ -4,6 +4,31 @@ In this data science Project, real messages  sent during disaster events is used
 
 Data : Figure Eight(https://www.figure-eight.com/)
 
+# Motivation
+In natural disasters , it is always challenging to provide right help at the right place in rigt time. So by creating whole end-end data science project , I was tryin to solve the issue and provide faster means of help.
+
+
+# Files Description 
+
+1. ETL Pipeline
+In a Python script, process_data.py, data cleaning pipeline contains:
+
+a.Loads the messages and categories datasets
+b.Merges the two datasets
+c.Cleans the data
+d.Stores it in a SQLite database
+
+2. ML Pipeline
+In a Python script, train_classifier.py,a machine learning pipeline contains:
+
+a.Loads data from the SQLite database
+b.Splits the dataset into training and test sets
+c.Builds a text processing and machine learning pipeline
+d.Trains and tunes a model using GridSearchCV
+e.Outputs results on the test set
+f.Exports the final model as a pickle file
+
+
 
 
 ### Instructions:
