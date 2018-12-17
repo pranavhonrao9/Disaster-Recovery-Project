@@ -10,18 +10,20 @@ In natural disasters , it is always challenging to provide right help at the rig
 
 # Files Description 
 
-1. ETL Pipeline
-In a Python script, process_data.py, data cleaning pipeline contains:
+# 1. ETL Pipeline
 
-a.Loads the messages and categories datasets
+    In a Python script, process_data.py, data cleaning pipeline contains:
 
-b.Merges the two datasets
+    a.Loads the messages and categories datasets
 
-c.Cleans the data
+    b.Merges the two datasets
 
-d.Stores it in a SQLite database
+    c.Cleans the data
 
-2. ML Pipeline
+    d.Stores it in a SQLite database
+
+# 2. ML Pipeline
+
 In a Python script, train_classifier.py,a machine learning pipeline contains:
 
 a.Loads data from the SQLite database
@@ -36,7 +38,7 @@ e.Outputs results on the test set
 
 f.Exports the final model as a pickle file
 
-3. Web App
+# 3. Web App
 In run.py file ,web app task is written using flask and python.
 
 
